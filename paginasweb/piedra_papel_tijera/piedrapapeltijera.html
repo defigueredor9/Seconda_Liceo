@@ -40,18 +40,19 @@
                     alert("EMPATE")
                 }else if(judagor==1 && pc==3){
                     alert("GANASTE")
-                    triunfos++
+                    triunfos = triunfos + 1
                 }else if(judagor==2 && pc==1){
                     alert("GANASTE")
-                    triunfos++
+                    triunfos = triunfos + 1
                 }else if(judagor==3 && pc==2){
                 alert("GANASTE")
-                    triunfos++   
+                    triunfos = triunfos + 1 
                 }else{
                     alert("PERDISTE")
-                    perdidas++
+                    perdidas = perdidas + 1
                 }
             }
+            alert ("ganaste: " + triunfos + " veces y perdiste "+perdidas+ " veces")
  
         </script>
     </head>
